@@ -8,11 +8,11 @@ def oxford_comma(array)
   if array.length <= 1
     array.join(" ")
   elsif
-    array_string.length <= 2
-    array_string = array.join(" and ")
-  elsif
-    array_string.length >= 3
-    array_string = array.join(" , ")
+    array.length <= 2
+    array.join(" and ")
+  else
+    array.length >= 3
+    array.join(" , ")
 
 
   end
