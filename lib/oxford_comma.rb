@@ -8,7 +8,7 @@ def oxford_comma(array)
   if array_string.length <= 1
     array_string = array.join(" ")
   elsif
-    array_string.length >= 2
+    array_string.length <= 2
     array_string = array.join(" and ")
 
   end
