@@ -13,8 +13,6 @@ def oxford_comma(array)
   else
     array.length >= 3
     array.join(" , ")
-
-
   end
   return array_string #+ array_last_item
 end
